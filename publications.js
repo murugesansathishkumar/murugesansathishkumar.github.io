@@ -272,7 +272,7 @@ const publications = {
       "title": "International Conference on Nonlinear Dynamical Systems",
       "venue": "Bharathiar University (BU), Coimbatore, India, Mar. 24-26, 2016."
     }
-  ],
+  ]
 };
 
 function displayPublications() {
@@ -280,8 +280,7 @@ function displayPublications() {
   const groups = [
     ["journals", "Journals", "Journal Publications"],
     ["conferences", "Conference Proceedings", "Refereed / International Conference Proceedings"],
-    ["presentations", "Abstract / Presentation at Conference", "Abstract / Presentation at Conference"],
-    ["talks", "Invited Talks", "Invited Talks"]
+    ["presentations", "Abstract / Presentation at Conference", "Abstract / Presentation at Conference"]
   ];
   const navigation = document.createElement("div");
   navigation.className = "subnav";
