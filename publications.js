@@ -273,24 +273,6 @@ const publications = {
       "venue": "Bharathiar University (BU), Coimbatore, India, Mar. 24-26, 2016."
     }
   ],
-  "talks": [
-    {
-      "title": "Invited Talk",
-      "detail": "Seminar on “Application of Artificial Intelligence and Image Processing Technology in Intelligent Mechatronic Systems,” Hanoi University of Industry, Hanoi, Vietnam, Sep. 25, 2026"
-    },
-    {
-      "title": "Invited Technical Talk",
-      "detail": "Workshop in ARIS 2026, International Conference on Advanced Robotics and Intelligent Systems, NCKU, Tainan, Taiwan · August 24–26, 2026"
-    },
-    {
-      "title": "Invited Guest Lecture",
-      "detail": "Department of Mathematics, PSGR Krishnammal College for Women, Coimbatore, India · March 12, 2026"
-    },
-    {
-      "title": "Invited Colloquium Talk",
-      "detail": "Department of Mathematics, National Chung Cheng University, Taiwan · October 6, 2020"
-    }
-  ]
 };
 
 function displayPublications() {
