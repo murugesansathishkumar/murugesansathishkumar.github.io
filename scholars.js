@@ -90,18 +90,18 @@ window.SCHOLARS = [
       }).join("");
 
       return '<div class="scholar">' +
-        '<div class="p-avatar" aria-label="Photo of ' + esc(p.name) + '">' +
-          '<img src="' + esc(p.photo) + '" alt="" onerror="this.hidden=true">' +
-          "<span>" + esc(p.initials) + "</span>" +
-        "</div>" +
-        '<div class="scholar-body">' +
+        '<div class="scholar-head">' +
+          '<div class="p-avatar" aria-label="Photo of ' + esc(p.name) + '">' +
+            '<img src="' + esc(p.photo) + '" alt="" onerror="this.hidden=true">' +
+            "<span>" + esc(p.initials) + "</span>" +
+          "</div>" +
           '<div class="pinfo">' +
             "<strong>" + name + "</strong>" +
             "<span>" + esc(p.role) + "</span>" +
             '<span><a href="mailto:' + esc(p.email) + '">' + esc(p.email) + "</a></span>" +
           "</div>" +
-          (papers ? '<div class="sch-pubs"><div class="sub">Research Papers</div>' + papers + "</div>" : "") +
         "</div>" +
+        (papers ? '<div class="sch-pubs"><div class="sub">Research Papers</div>' + papers + "</div>" : "") +
       "</div>";
     }).join("");
   }
@@ -118,6 +118,6 @@ window.SCHOLARS = [
    ========================================================== */
 (function () {
   var st = document.createElement("style");
-  st.textContent = '.scholar-list{display:grid;gap:28px}\n.scholar{display:flow-root;padding-bottom:24px;border-bottom:1px solid var(--line)}\n.scholar:last-child{border-bottom:0;padding-bottom:0}\n.scholar .p-avatar{float:left;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;width:130px;height:130px;margin:0 22px 10px 0;border-radius:50%;font-weight:800;font-size:1.9rem;color:var(--navy)}\n.scholar .p-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%}\n.scholar .p-avatar img[hidden]{display:none}\n.scholar .pinfo{text-align:left;margin-bottom:14px}\n.scholar .pinfo strong{font-size:1.2rem;color:var(--navy)}\n.sch-pubs .sub{margin-top:0}\n@media(max-width:600px){.scholar .p-avatar{width:90px;height:90px;margin-right:14px;font-size:1.4rem}}\n';
+  st.textContent = '.scholar-list{display:grid;gap:30px}\n.scholar{padding-bottom:26px;border-bottom:1px solid var(--line)}\n.scholar:last-child{border-bottom:0;padding-bottom:0}\n.scholar-head{display:flex;align-items:center;gap:22px;margin-bottom:18px}\n.scholar .p-avatar{flex:0 0 auto;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;width:130px;height:130px;margin:0;border-radius:50%;font-weight:800;font-size:1.9rem;color:var(--navy)}\n.scholar .p-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%}\n.scholar .p-avatar img[hidden]{display:none}\n.scholar .pinfo{text-align:left;margin:0}\n.scholar .pinfo strong{font-size:1.25rem;color:var(--navy)}\n.sch-pubs .sub{margin-top:0}\n@media(max-width:600px){.scholar-head{gap:14px}.scholar .p-avatar{width:90px;height:90px;font-size:1.4rem}}\n';
   document.head.appendChild(st);
 })();
