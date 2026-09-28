@@ -17,21 +17,24 @@ const publications = {
       "title": "Resilient control strategies for probabilistic non-linear systems with time-delays subject to scaling attacks",
       "authors": "M. Joby, M. Sathishkumar, L. S. Ramya, and S. Santra",
       "venue": "Mathematical Methods in the Applied Sciences, vol. 48, no. 12, pp. 12174–12185, 2025.",
-      "badge": "Q1 · IF 2.0"
+      "badge": "Q1 · IF 2.0",
+       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/mma.11020"
     },
     {
       "year": "2025",
       "title": "Secure finite-time filtering for switched fuzzy systems with scaling attacks and stochastic sensor faults",
       "authors": "M. Sathishkumar*, M. Joby, Y.-K. Ma, S. M. Anthoni, and S. Santra",
       "venue": "Nonlinear Dynamics, vol. 113, no. 11, pp. 13485–13506, 2025.",
-      "badge": "Q1 · IF 5.7"
+      "badge": "Q1 · IF 5.7",
+       link: "https://link.springer.com/article/10.1007/s11071-025-11042-1"
     },
     {
       "year": "2025",
       "title": "Event-based biological pest control: An LMI approach",
       "authors": "M. Sathishkumar*, M. Joby, S. Santra, Y.-K. Ma and S. M. Anthoni",
       "venue": "Journal of Theoretical Biology, vol. 596, p. 111975, 2025.",
-      "badge": "Q2 · IF 1.9"
+      "badge": "Q2 · IF 1.9", 
+       link: "https://www.sciencedirect.com/science/article/abs/pii/S0022519324002601"
     },
     {
       "year": "2024",
