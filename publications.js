@@ -8,7 +8,9 @@ const publications = {
       "title": "Dynamic event-triggered control for network-based offshore platforms under cyber attacks",
       "authors": "E. Manikandan, M. Sathishkumar, and Y.-C. Liu",
       "venue": "Ocean Engineering, vol. 362, p. 126929, 2026.",
-      "badge": "Q1 · IF 6.3"
+      "badge": "Q1 · IF 6.3",
+      link: "https://www.sciencedirect.com/science/article/pii/S0029801826021268"
+
     },
     {
       "year": "2025",
