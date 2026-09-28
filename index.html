@@ -258,20 +258,6 @@
       </section>
 
 
-<!-- ===== PEOPLE ===== -->
-<section class="tab-panel" id="people">
-  <div class="subnav">
-    <a href="#people/phd" data-sub="phd">Doctoral Degree Program</a>
-  </div>
-  <div class="sub-panel" data-sub="phd">
-    <div class="card">
-      <h2>Doctoral Degree Program</h2>
-      <!-- Scholar details are loaded from scholars.js -->
-      <div class="scholar-list" id="scholar-list"></div>
-    </div>
-  </div>
-</section>
-      
       <!-- ===== PEOPLE ===== -->
       <section class="tab-panel" id="people">
         <div class="subnav">
@@ -413,47 +399,4 @@
     </footer>
     <script src="publications.js"></script>
     <script src="script.js"></script>
-    <script src="scholars.js"></script>
-<script>
-/* Builds the Doctoral Degree Program list from scholars.js */
-(function(){
-  var box=document.getElementById('scholar-list');
-  if(!box||!window.SCHOLARS)return;
-  function esc(t){var d=document.createElement('div');d.textContent=t==null?'':t;return d.innerHTML;}
-  box.innerHTML=window.SCHOLARS.map(function(p){
-    var name=p.link?'<a href="'+esc(p.link)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a>':esc(p.name);
-    var papers=(p.papers||[]).map(function(x){
-      return '<article class="publication compact">'
-        +'<div class="pub-year">'+esc(x.year)+'</div>'
-        +'<div><h4>'+esc(x.title)+'</h4>'
-        +'<p class="authors">'+esc(x.authors)+'</p>'
-        +'<p class="venue">'+esc(x.venue)+'</p>'
-        +(x.badge?'<span class="badge">'+esc(x.badge)+'</span>':'')
-        +'</div></article>';
-    }).join('');
-    return '<div class="scholar"><div class="person">'
-      +'<div class="p-avatar" aria-label="Photo of '+esc(p.name)+'">'
-      +'<img src="'+esc(p.photo)+'" alt="" onerror="this.hidden=true"><span>'+esc(p.initials)+'</span></div>'
-      +'<div class="pinfo"><strong>'+name+'</strong><span>'+esc(p.role)+'</span>'
-      +'<span><a href="mailto:'+esc(p.email)+'">'+esc(p.email)+'</a></span></div></div>'
-      +(papers?'<div class="sch-pubs"><div class="sub">Research Papers</div>'+papers+'</div>':'')
-      +'</div>';
-  }).join('');
-})();
-</script>
-<script>
-(function(){
-var tabs=[].slice.call(document.querySelectorAll('nav a[data-tab]')),panels=[].slice.call(document.querySelectorAll('.tab-panel')),last='';
-function show(){var h=(location.hash||'#home').slice(1).split('/'),id=h[0],el=document.getElementById(id);
-if(!el||!el.classList.contains('tab-panel')){id='home';el=document.getElementById(id);}
-panels.forEach(function(p){p.classList.toggle('active',p.id===id)});tabs.forEach(function(t){t.classList.toggle('active',t.dataset.tab===id)});
-var sp=[].slice.call(el.querySelectorAll('.sub-panel'));
-if(sp.length){var key=h[1];if(!sp.some(function(p){return p.dataset.sub===key}))key=sp[0].dataset.sub;
-sp.forEach(function(p){p.classList.toggle('active',p.dataset.sub===key)});
-[].slice.call(el.querySelectorAll('.subnav a')).forEach(function(a){a.classList.toggle('active',a.dataset.sub===key)});}
-if(last&&last!==id){var n=document.querySelector('nav');window.scrollTo({top:n.offsetTop,behavior:'smooth'});}
-last=id;}
-window.addEventListener('hashchange',show);show();window.scrollTo(0,0);
-})();
-</script>
 </body></html>
