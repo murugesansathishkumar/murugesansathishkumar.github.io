@@ -322,10 +322,19 @@ function displayPublications() {
         ["h4", "title", ""], ["p", "authors", "authors"],
         ["p", "venue", "venue"], ["span", "badge", "badge"]
       ]) {
-        if (!record[field]) continue;
+       if (!record[field]) continue;
         const element = document.createElement(tag);
         if (className) element.className = className;
-        element.textContent = record[field];
+        if (field === "title" && record.link) {
+          const a = document.createElement("a");
+          a.href = record.link;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = record[field];
+          element.appendChild(a);
+        } else {
+          element.textContent = record[field];
+        }
         details.appendChild(element);
       }
       article.append(year, details); list.appendChild(article);
