@@ -112,12 +112,3 @@ window.SCHOLARS = [
     render();
   }
 })();
-
-/* ==========================================================
-   STYLES  (added automatically, so no separate CSS file is needed)
-   ========================================================== */
-(function () {
-  var st = document.createElement("style");
-  st.textContent = '/* Styles for the Doctoral Degree Program list (loaded after style.css) */\n.scholar-list{display:grid;gap:26px}\n.scholar{display:grid;grid-template-columns:200px 1fr;gap:24px;padding-bottom:22px;border-bottom:1px solid var(--line)}\n.scholar:last-child{border-bottom:0;padding-bottom:0}\n.sch-pubs .sub{margin-top:0}\n.scholar .person{text-align:center}\n.p-avatar{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.6rem;color:var(--navy)}\n.p-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%}\n.p-avatar img[hidden]{display:none}\n@media(max-width:700px){.scholar{grid-template-columns:1fr}}\n';
-  document.head.appendChild(st);
-})();
