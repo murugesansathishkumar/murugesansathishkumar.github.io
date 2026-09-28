@@ -21,7 +21,7 @@ window.SCHOLARS = [
       },
       {
         year: "2026",
-        title: "Complex-Valued Optimal Control for Three-Phase Voltage Source Converter Model using Policy Iteration",
+        title: "Complex-valued optimal control for three-phase voltage source converter model using policy iteration",
         authors: "N. Manoj, M. Sathishkumar, Q. H. Tran, and Y.-C. Liu",
         venue: "2026 American Control Conference (ACC), pp. 4616–4621, 2026."
       },
