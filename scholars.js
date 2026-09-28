@@ -57,3 +57,58 @@ window.SCHOLARS = [
     ]
   }
 ];
+
+/* ==========================================================
+   RENDERER  (builds the Doctoral Degree Program list)
+   Needs <div class="scholar-list" id="scholar-list"></div> in index.html
+   ========================================================== */
+(function () {
+  function esc(t) {
+    var d = document.createElement("div");
+    d.textContent = t == null ? "" : t;
+    return d.innerHTML;
+  }
+
+  function render() {
+    var box = document.getElementById("scholar-list");
+    if (!box || !window.SCHOLARS) return;
+
+    box.innerHTML = window.SCHOLARS.map(function (p) {
+      var name = p.link
+        ? '<a href="' + esc(p.link) + '" target="_blank" rel="noopener">' + esc(p.name) + "</a>"
+        : esc(p.name);
+
+      var papers = (p.papers || []).map(function (x) {
+        return '<article class="publication compact">' +
+          '<div class="pub-year">' + esc(x.year) + "</div>" +
+          "<div>" +
+            "<h4>" + esc(x.title) + "</h4>" +
+            '<p class="authors">' + esc(x.authors) + "</p>" +
+            '<p class="venue">' + esc(x.venue) + "</p>" +
+            (x.badge ? '<span class="badge">' + esc(x.badge) + "</span>" : "") +
+          "</div></article>";
+      }).join("");
+
+      return '<div class="scholar">' +
+        '<div class="person">' +
+          '<div class="p-avatar" aria-label="Photo of ' + esc(p.name) + '">' +
+            '<img src="' + esc(p.photo) + '" alt="" onerror="this.hidden=true">' +
+            "<span>" + esc(p.initials) + "</span>" +
+          "</div>" +
+          '<div class="pinfo">' +
+            "<strong>" + name + "</strong>" +
+            "<span>" + esc(p.role) + "</span>" +
+            '<span><a href="mailto:' + esc(p.email) + '">' + esc(p.email) + "</a></span>" +
+          "</div>" +
+        "</div>" +
+        (papers ? '<div class="sch-pubs"><div class="sub">Research Papers</div>' + papers + "</div>" : "") +
+      "</div>";
+    }).join("");
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", render);
+  } else {
+    render();
+  }
+})();
