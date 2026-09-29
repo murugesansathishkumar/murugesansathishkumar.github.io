@@ -137,77 +137,88 @@ const publications = {
       "title": "Mixed H-infinity and passivity-based resilient controller for nonhomogeneous Markov jump systems",
       "authors": "M. Sathishkumar, R. Sakthivel, F. Alzahrani, B. Kaviarasan, Y. Ren",
       "venue": "Nonlinear Analysis: Hybrid Systems, vol. 31, pp. 86–99, 2019.",
-      "badge": "Q1 · IF 3.2"
+      "badge": "Q1 · IF 3.2",
+       link: "https://www.sciencedirect.com/science/article/pii/S1751570X18300694"
     },
     {
       "year": "2019",
       "title": "Quantized finite-time non-fragile filtering for singular Markovian jump systems with intermittent measurements",
       "authors": "R. Sakthivel, M. Sathishkumar, F. Alzahrani, and Y. Ren",
       "venue": "Circuits, Systems, and Signal Processing, vol. 38, no. 9, pp. 3971–3995, 2019.",
-      "badge": "Q3 · IF 2.5"
+      "badge": "Q3 · IF 2.5",
+       link: "https://link.springer.com/article/10.1007/s00034-019-01046-9"
     },
     {
       "year": "2018",
       "title": "Finite-time passive reliable filtering for fuzzy systems with missing measurements",
       "authors": "R. Sakthivel, S. Vimal Kumar, M. Sathishkumar and S. Marshal Anthoni",
       "venue": "ASME Journal of Dynamic Systems, Measurement and Control, vol. 140, no. 8, pp. 1–10, 2018.",
-      "badge": "Q3 · IF 1.2"
+      "badge": "Q3 · IF 1.2",
+       link: "https://doi.org/10.1115/1.4039183"
     },
     {
       "year": "2018",
       "title": "Non-fragile filtering for Singular Markovian jump systems with missing measurements",
       "authors": "M. Sathishkumar, R. Sakthivel, C. Wang, B. Kaviarasan and S. Marshal Anthoni",
       "venue": "Signal Processing, vol. 142, pp. 125–136, 2018.",
-      "badge": "Q1 · IF 3.7"
+      "badge": "Q1 · IF 3.7",
+       link: "https://www.sciencedirect.com/science/article/pii/S016516841730258X"
     },
     {
       "year": "2017",
       "title": "Non-fragile reliable control synthesis of the sugarcane borer",
       "authors": "R. Sakthivel, T. Saravanakumar and M. Sathishkumar",
       "venue": "IET Systems Biology, vol. 11, no. 5, pp. 139–143, 2017.",
-      "badge": "Q3 · IF 1.9"
+      "badge": "Q3 · IF 1.9",
+       link: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-syb.2016.0040"
     },
     {
       "year": "2017",
       "title": "Synchronization and state estimation for stochastic complex networks with uncertain inner coupling",
       "authors": "R. Sakthivel, M. Sathishkumar, B. Kaviarasan and S. Marshal Anthoni",
       "venue": "Neurocomputing, vol. 238, pp. 44–55, 2017.",
-      "badge": "Q1 · IF 6.7"
+      "badge": "Q1 · IF 6.7",
+       link: "https://www.sciencedirect.com/science/article/pii/S0925231217300978"
     },
     {
       "year": "2017",
       "title": "Fault-tolerant sampled-data control of singular networked cascade control systems",
       "authors": "R. Sakthivel, M. Sathishkumar, Y. Ren and O.M. Kwon",
       "venue": "International Journal of Systems Science, vol. 48, no. 10, pp. 2079–2090, 2017.",
-      "badge": "Q1 · IF 4.3"
+      "badge": "Q1 · IF 4.3",
+       link: "https://www.tandfonline.com/doi/abs/10.1080/00207721.2017.1310950"
     },
     {
       "year": "2017",
       "title": "Finite-time mixed H-infinity and passive filtering for Takagi-Sugeno fuzzy nonhomogeneous Markovian jump systems",
       "authors": "M. Sathishkumar, R. Sakthivel, O.M. Kwon and B. Kaviarasan",
       "venue": "International Journal of Systems Science, vol. 48, no. 7, pp. 1416–1427, 2017.",
-      "badge": "Q1 · IF 4.3"
+      "badge": "Q1 · IF 4.3",
+       link: "https://www.tandfonline.com/doi/abs/10.1080/00207721.2016.1261199"
     },
     {
       "year": "2017",
       "title": "Robust reliable dissipative filtering for Markovian jump nonlinear systems with uncertainties",
       "authors": "R. Sakthivel, M. Sathishkumar, K. Mathiyalagan and S. Marshal Anthoni",
       "venue": "International Journal of Adaptive Control and Signal Processing, vol. 31, no. 1, pp. 39–53, 2017.",
-      "badge": "Q2 · IF 3.8"
+      "badge": "Q2 · IF 3.8",
+       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/acs.2680"
     },
     {
       "year": "2016",
       "title": "Robust reliable dissipative control of nonlinear networked control systems",
       "authors": "M. Sathishkumar, R. Sakthivel, P. Selvaraj and S. Marshal Anthoni",
       "venue": "Complexity, vol. 21, no. S2, pp. 427–437, 2016.",
-      "badge": "Q2 · IF 1.6"
+      "badge": "Q2 · IF 1.6",
+       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/cplx.21822"
     },
     {
       "year": "2016",
       "title": "Robust finite-time passivity for discrete-time genetic regulatory networks with Markovian jumping parameters",
       "authors": "R. Sakthivel, M. Sathishkumar, B. Kaviarasan and S. Marshal Anthoni",
       "venue": "Zeitschrift für Naturforschung A – A Journal of Physical Sciences, vol. 71, no. 4, pp. 289–304, 2016.",
-      "badge": "Q2 · IF 1.7"
+      "badge": "Q2 · IF 1.7",
+       link: "https://www.degruyterbrill.com/document/doi/10.1515/zna-2015-0405/html"
     }
   ],
   "conferences": [
@@ -217,11 +228,11 @@ const publications = {
       "authors": "N. Manoj and M. Sathishkumar",
       "venue": "12th Indian Control Conference (ICC-12), IIT-Kharagpur, India, Jan. 11–13, 2027 (accepted)."
     },
-    {
+     {
       "year": "2026",
-      "title": "Complex-Valued Optimal Control for Three-Phase Voltage Source Converter Model using Policy Iteration",
-      "authors": "N. Manoj, M. Sathishkumar, Q. H. Tran, and Y.-C. Liu",
-      "venue": "2026 American Control Conference (ACC), pp. 4616–4621, 2026."
+      "title": "Model-based homotopic policy iteration for optimal control of complex-valued linear systems",
+      "authors": "N. Manoj, M. Sathishkumar, and Y.-C. Liu",
+      "venue": "ARIS 2026, International Conference on Advanced Robotics and Intelligent Systems, Tainan, Taiwan — accepted"
     },
     {
       "year": "2026",
@@ -229,23 +240,26 @@ const publications = {
       "authors": "N. Manoj and M. Sathishkumar",
       "venue": "15th Asian Control Conference (ASCC), Indonesia — accepted"
     },
-    {
+        {
       "year": "2026",
-      "title": "Model-based homotopic policy iteration for optimal control of complex-valued linear systems",
-      "authors": "N. Manoj, M. Sathishkumar, and Y.-C. Liu",
-      "venue": "ARIS 2026, International Conference on Advanced Robotics and Intelligent Systems, Tainan, Taiwan — accepted"
+      "title": "Complex-Valued Optimal Control for Three-Phase Voltage Source Converter Model using Policy Iteration",
+      "authors": "N. Manoj, M. Sathishkumar, Q. H. Tran, and Y.-C. Liu",
+      "venue": "2026 American Control Conference (ACC), pp. 4616–4621, 2026.",
+           link: "https://ieeexplore.ieee.org/abstract/document/11616055"
     },
     {
       "year": "2024",
       "title": "Clock Steering Techniques for Atomic Clocks of Arbitrary Order",
       "authors": "P. Dey, M. Sathishkumar, T. Kawaguchi, Y. Yano, Y. Hanado, and T. Ishizaki",
-      "venue": "2024 European Control Conference (ECC), pp. 2132–2137, 2024."
+      "venue": "2024 European Control Conference (ECC), pp. 2132–2137, 2024.",
+       link: "https://ieeexplore.ieee.org/abstract/document/10591293"
     },
     {
       "year": "2021",
       "title": "Resilient memory event-triggered finite-time bounded for networked control systems with multiple attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
-      "venue": "American Control Conference (ACC), USA, pp. 2713–2719"
+      "venue": "American Control Conference (ACC), USA, pp. 2713–2719",
+       link: "https://ieeexplore.ieee.org/abstract/document/9482984"
     }
   ],
   "presentations": [
