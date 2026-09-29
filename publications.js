@@ -294,18 +294,15 @@ const publications = {
     },
     {
       "year": "2017",
-      "title": "International Conference on Advances in Applicable Mathematics",
-      "venue": "Bharathiar University (BU), Coimbatore, India, Dec. 7 & 8, 2017."
-    },
-    {
-      "year": "2017",
-      "title": "International Conference on Differential Equations and Applications",
-      "venue": "Bharathiar University (BU), Coimbatore, India, Mar. 15 & 16, 2017."
+      "title": "Robust reliable H-infinity filtering for Markovian jump nonlinear systems with uncertainties",
+       "authors": "M. Sathishkumar and S. Marshal Anthoni",
+      "venue": "International Conference on Differential Equations and Applications, Coimbatore, India, Mar. 15 & 16, 2017."
     },
     {
       "year": "2016",
-      "title": "International Conference on Nonlinear Dynamical Systems",
-      "venue": "Bharathiar University (BU), Coimbatore, India, Mar. 24-26, 2016."
+      "title": "H-infinity Synchronization for stochastic complex networks with uncertain inner coupling",
+      "authors": "M. Sathishkumar",
+      "venue": "International Conference on Nonlinear Dynamical Systems (ICNDS 2016), Coimbatore, India, Mar. 24-26, 2016."
     }
   ]
 };
