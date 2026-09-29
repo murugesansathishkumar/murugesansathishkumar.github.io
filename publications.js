@@ -314,6 +314,7 @@ function appendAuthors(element, text) {
     if (/^M\.\s*Sathishkumar\*?$/.test(part)) {
       const strong = document.createElement("strong");
       strong.textContent = part;
+      strong.style.fontWeight = "800";
       element.appendChild(strong);
     } else {
       element.appendChild(document.createTextNode(part));
