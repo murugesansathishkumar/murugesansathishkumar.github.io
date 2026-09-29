@@ -122,7 +122,7 @@ const publications = {
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Journal of Systems Science, vol. 51, no. 14, pp. 2712–2732, 2020.",
       "badge": "Q1 · IF 4.3",
-       link: ""https://www.tandfonline.com/doi/abs/10.1080/00207721.2020.1801880
+       link: "https://www.tandfonline.com/doi/abs/10.1080/00207721.2020.1801880"
     },
     {
       "year": "2020",
