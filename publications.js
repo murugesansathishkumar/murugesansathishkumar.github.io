@@ -264,28 +264,33 @@ const publications = {
   "presentations": [
     {
       "year": "2023",
-      "title": "International Automatic Control Conference (CACS 2023)",
-      "venue": "National Penghu University of Science and Technology (NPUST), Penghu, Taiwan, Oct. 26-29, 2023."
+      "title": "Finite-Time Adaptive Event-Triggered Consensus for Multi-Agent Systems Under Multiple Attacks", 
+       "authors": "M. Sathishkumar and Y.-C. Liu",
+      "venue": "International Automatic Control Conference (CACS 2023), National Penghu University of Science and Technology (NPUST), Penghu, Taiwan, Oct. 26-29, 2023."
     },
     {
       "year": "2022",
-      "title": "International Conference on System Science and Engineering (ICSSE 2022)",
-      "venue": "National Chung Hsing University (NCHU), Taichung, Taiwan, May 26-29, 2022."
+      "title": "Resilient Annular Finite-Time Event-Triggered Control for Networked Switched Systems with Stochastic Cyber-Attacks",
+       "authors": "M. Sathishkumar and Y.-C. Liu",
+      "venue": "International Conference on System Science and Engineering (ICSSE 2022), National Chung Hsing University (NCHU), Taichung, Taiwan, May 26-29, 2022."
     },
     {
       "year": "2021",
-      "title": "International Automatic Control Conference (CACS 2021)",
-      "venue": "National Chung Cheng University (NCCU), Chiayi, Taiwan, Nov. 3-6, 2021."
+      "title": "Resilient Adaptive Event-Triggered H-infinity Control for Networked Control Systems with Denial-of-Service Attacks",
+       "authors": "M. Sathishkumar and Y.-C. Liu",
+      "venue": "International Automatic Control Conference (CACS 2021), National Chung Cheng University (NCCU), Chiayi, Taiwan, Nov. 3-6, 2021."
     },
     {
       "year": "2020",
-      "title": "International Automatic Control Conference (CACS 2020)",
-      "venue": "National Chung Hsing University (NCTU), Hsinchu, Taiwan, Nov. 4-7, 2020."
+      "title": "Resilient Event-Triggered Consensus Control of Multi-Agent Systems Under Actuator Faults and Periodic Denial-of-Service Attacks",
+      "authors": "M. Sathishkumar and Y.-C. Liu",
+       "venue": "International Automatic Control Conference (CACS 2020), National Chung Hsing University (NCTU), Hsinchu, Taiwan, Nov. 4-7, 2020."
     },
     {
       "year": "2019",
-      "title": "International Automatic Control Conference (CACS 2019)",
-      "venue": "National Taiwan Ocean University (NTOU), Keelung, Taiwan, Nov. 13-16, 2019."
+      "title": "Hybrid-Triggered Reliable Control for Singular Networked Cascade Control Systems with Actuator Saturations and Cyber Attacks",
+      "authors": "M. Sathishkumar and Y.-C. Liu",
+       "venue": "International Automatic Control Conference (CACS 2019), National Taiwan Ocean University (NTOU), Keelung, Taiwan, Nov. 13-16, 2019."
     },
     {
       "year": "2017",
