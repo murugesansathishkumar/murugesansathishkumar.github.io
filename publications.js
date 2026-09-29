@@ -241,14 +241,14 @@ const publications = {
     },
     {
       "year": "2026",
-      "title": "Complex-Valued Optimal Control for Three-Phase Voltage Source Converter Model using Policy Iteration",
+      "title": "Complex-valued optimal control for three-phase voltage source converter model using policy iteration",
       "authors": "N. Manoj, M. Sathishkumar, Q. H. Tran, and Y.-C. Liu",
       "venue": "2026 American Control Conference (ACC), pp. 4616–4621, 2026.",
       "link": "https://ieeexplore.ieee.org/abstract/document/11616055"
     },
     {
       "year": "2024",
-      "title": "Clock Steering Techniques for Atomic Clocks of Arbitrary Order",
+      "title": "Clock steering techniques for atomic clocks of arbitrary order",
       "authors": "P. Dey, M. Sathishkumar, T. Kawaguchi, Y. Yano, Y. Hanado, and T. Ishizaki",
       "venue": "2024 European Control Conference (ECC), pp. 2132–2137, 2024.",
       "link": "https://ieeexplore.ieee.org/abstract/document/10591293"
@@ -264,31 +264,31 @@ const publications = {
   "presentations": [
     {
       "year": "2023",
-      "title": "Finite-Time Adaptive Event-Triggered Consensus for Multi-Agent Systems Under Multiple Attacks", 
+      "title": "Finite-time adaptive event-triggered consensus for multi-agent systems under multiple attacks", 
        "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Automatic Control Conference (CACS 2023), Penghu, Taiwan, Oct. 26-29, 2023."
     },
     {
       "year": "2022",
-      "title": "Resilient Annular Finite-Time Event-Triggered Control for Networked Switched Systems with Stochastic Cyber-Attacks",
+      "title": "Resilient annular finite-time event-triggered control for networked switched systems with stochastic cyber-attacks",
        "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Conference on System Science and Engineering (ICSSE 2022), Taichung, Taiwan, May 26-29, 2022."
     },
     {
       "year": "2021",
-      "title": "Resilient Adaptive Event-Triggered H-infinity Control for Networked Control Systems with Denial-of-Service Attacks",
+      "title": "Resilient adaptive event-triggered H-infinity control for networked control systems with denial-of-service attacks",
        "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Automatic Control Conference (CACS 2021), Chiayi, Taiwan, Nov. 3-6, 2021."
     },
     {
       "year": "2020",
-      "title": "Resilient Event-Triggered Consensus Control of Multi-Agent Systems Under Actuator Faults and Periodic Denial-of-Service Attacks",
+      "title": "Resilient event-triggered consensus control of multi-agent systems under actuator faults and periodic denial-of-service attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
        "venue": "International Automatic Control Conference (CACS 2020), Hsinchu, Taiwan, Nov. 4-7, 2020."
     },
     {
       "year": "2019",
-      "title": "Hybrid-Triggered Reliable Control for Singular Networked Cascade Control Systems with Actuator Saturations and Cyber Attacks",
+      "title": "Hybrid-triggered reliable control for singular networked cascade control systems with actuator saturations and cyber attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
        "venue": "International Automatic Control Conference (CACS 2019), Keelung, Taiwan, Nov. 13-16, 2019."
     },
@@ -296,11 +296,11 @@ const publications = {
       "year": "2017",
       "title": "Robust reliable H-infinity filtering for Markovian jump nonlinear systems with uncertainties",
        "authors": "M. Sathishkumar and S. Marshal Anthoni",
-      "venue": "International Conference on Differential Equations and Applications, Coimbatore, India, Mar. 15 & 16, 2017."
+      "venue": "International Conference on Differential Equations and Applications (ICDEA 2017), Coimbatore, India, Mar. 15 & 16, 2017."
     },
     {
       "year": "2016",
-      "title": "H-infinity Synchronization for stochastic complex networks with uncertain inner coupling",
+      "title": "H-infinity synchronization for stochastic complex networks with uncertain inner coupling",
       "authors": "M. Sathishkumar",
       "venue": "International Conference on Nonlinear Dynamical Systems (ICNDS 2016), Coimbatore, India, Mar. 24-26, 2016."
     }
