@@ -262,7 +262,7 @@ const publications = {
     }
   ],
   "presentations": [
-    {
+       {
       "year": "2023",
       "title": "Finite-time adaptive event-triggered consensus for multi-agent systems under multiple attacks", 
        "authors": "M. Sathishkumar and Y.-C. Liu",
