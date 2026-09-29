@@ -41,84 +41,96 @@ const publications = {
       "title": "Sampled-data-based synchronization of complex networks under scaling attacks",
       "authors": "M. Sathishkumar, T. Ishizaki, and Y.-C. Liu",
       "venue": "Mathematical Methods in the Applied Sciences, vol. 47, no. 18, pp. 14487–14504, 2024.",
-      "badge": "Q1 · IF 2.0"
+      "badge": "Q1 · IF 2.0",
+       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/mma.10286"
     },
     {
       "year": "2023",
       "title": "Resilient annular finite-time synchronization for master-slave switched systems with deception attacks",
       "authors": "M. Sathishkumar, T. Ishizaki, and Y.-C. Liu",
       "venue": "IET Control Theory & Applications, vol. 17, no. 18, pp. 2458–2473, 2023.",
-      "badge": "Q3 · IF 2.0"
+      "badge": "Q3 · IF 2.0",
+       link: "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cth2.12531"
     },
     {
       "year": "2023",
       "title": "Cyber forensic investigation infrastructure of Pakistan: An analysis of cyber threat landscape and readiness",
       "authors": "E.U. Haque, W. Abbasi, M. Sathishkumar, M. S. Anwar, F. Khan, and Y. Lee",
       "venue": "IEEE Access, vol. 11, pp. 40049–40063, 2023.",
-      "badge": "Q2 · IF 4.2"
+      "badge": "Q2 · IF 4.2",
+       link: "https://ieeexplore.ieee.org/abstract/document/10105248"
     },
     {
       "year": "2023",
       "title": "Resilient finite-time distributed event-triggered consensus of multi-agent systems with multiple cyber-attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "Communications in Nonlinear Science and Numerical Simulation, vol. 116, 106876, 2023.",
-      "badge": "Q1 · IF 3.9"
+      "badge": "Q1 · IF 3.9",
+       link: "https://www.sciencedirect.com/science/article/pii/S100757042200363X"
     },
     {
       "year": "2022",
       "title": "Resilient adaptive event-triggered control for singular networked cascade control systems under DoS attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "IEEE Access, vol. 10, pp. 89197–89210, 2022.",
-      "badge": "Q2 · IF 4.2"
+      "badge": "Q2 · IF 4.2",
+       link: "https://ieeexplore.ieee.org/abstract/document/9861620"
     },
     {
       "year": "2022",
       "title": "Resilient adaptive event-triggered control for networked control systems with DoS attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Journal of Systems Science, vol. 53, no. 7, pp. 1562–1578, 2022.",
-      "badge": "Q1 · IF 4.3"
+      "badge": "Q1 · IF 4.3",
+       link: "https://www.tandfonline.com/doi/abs/10.1080/00207721.2021.2017508"
     },
     {
       "year": "2022",
       "title": "Resilient memory event-triggered consensus control for multi-agent systems with aperiodic DoS attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Journal of Control, Automation and Systems, vol. 20, pp. 1800–1813, 2022.",
-      "badge": "Q2 · IF 2.8"
+      "badge": "Q2 · IF 2.8",
+       link: "https://link.springer.com/article/10.1007/s12555-021-0380-x"
     },
     {
       "year": "2022",
       "title": "Finite-time resilient control for networked control systems with multiple cyber-attacks: Memory/adaptive event-triggered scheme",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Journal of Adaptive Control and Signal Processing, vol. 36, no. 4, pp. 901–925, 2022.",
-      "badge": "Q2 · IF 3.8"
+      "badge": "Q2 · IF 3.8",
+       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/acs.3379"
     },
     {
       "year": "2022",
       "title": "LMI approach-based sampled-data control for uncertain systems with actuator saturation: application to multi-machine power system",
       "authors": "S. Santra, M. Joby, M. Sathishkumar, and S. M. Anthoni",
       "venue": "Nonlinear Dynamics, vol. 107, pp. 967–982, 2022.",
-      "badge": "Q1 · IF 5.7"
+      "badge": "Q1 · IF 5.7",
+       link: "https://link.springer.com/article/10.1007/s11071-021-06995-y"
     },
     {
       "year": "2021",
       "title": "Resilient annular finite-time bounded and adaptive event-triggered control for networked switched systems with deception attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "IEEE Access, vol. 9, pp. 92288–92299, 2021.",
-      "badge": "Q2 · IF 4.2"
+      "badge": "Q2 · IF 4.2",
+       link: "https://ieeexplore.ieee.org/abstract/document/9465157"
     },
     {
       "year": "2020",
       "title": "Resilient event-triggered fault-tolerant control for networked control systems with randomly occurring nonlinearities and DoS attacks",
       "authors": "M. Sathishkumar and Y.-C. Liu",
       "venue": "International Journal of Systems Science, vol. 51, no. 14, pp. 2712–2732, 2020.",
-      "badge": "Q1 · IF 4.3"
+      "badge": "Q1 · IF 4.3",
+       link: ""https://www.tandfonline.com/doi/abs/10.1080/00207721.2020.1801880
     },
     {
       "year": "2020",
       "title": "Hybrid-triggered reliable dissipative control for singular networked cascade control systems with cyber-attacks",
       "authors": "M. Sathishkumar* and Y.-C. Liu",
       "venue": "Journal of the Franklin Institute, vol. 357, no. 7, pp. 4008–4033, 2020.",
-      "badge": "Q1 · IF 3.7"
+      "badge": "Q1 · IF 3.7",
+       link: "https://www.sciencedirect.com/science/article/pii/S0016003220300284"
     },
     {
       "year": "2019",
