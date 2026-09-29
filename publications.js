@@ -305,6 +305,21 @@ const publications = {
     }
   ]
 };
+/* Appends the authors line, wrapping "M. Sathishkumar" (and the
+   corresponding-author form "M. Sathishkumar*") in <strong>. */
+function appendAuthors(element, text) {
+  const pattern = /(M\.\s*Sathishkumar\*?)/g;
+  text.split(pattern).forEach(part => {
+    if (!part) return;
+    if (/^M\.\s*Sathishkumar\*?$/.test(part)) {
+      const strong = document.createElement("strong");
+      strong.textContent = part;
+      element.appendChild(strong);
+    } else {
+      element.appendChild(document.createTextNode(part));
+    }
+  });
+}
 
 function displayPublications() {
   const section = document.getElementById("publications");
