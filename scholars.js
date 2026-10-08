@@ -16,7 +16,7 @@ window.SCHOLARS = [
       {
         year: "2027",
         title: "Learning-based homotopic policy iteration for optimal path-tracking control of nonholonomic mobile robots",
-        authors: "N. Manoj and M. Sathishkumar",
+        authors: "<strong>N. Manoj</strong> and M. Sathishkumar",
         venue: "12th Indian Control Conference (ICC-12), IIT-Kharagpur, India, Jan. 11–13, 2027 (accepted)."
       },
       {
