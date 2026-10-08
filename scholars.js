@@ -69,6 +69,14 @@ window.SCHOLARS = [
     return d.innerHTML;
   }
 
+  // Escapes the authors text, then bolds only the scholar's own name
+  function boldAuthor(authors, who) {
+    var safe = esc(authors);
+    if (!who) return safe;
+    var target = esc(who);
+    return safe.split(target).join("<strong>" + target + "</strong>");
+  }
+
   function render() {
     var box = document.getElementById("scholar-list");
     if (!box || !window.SCHOLARS) return;
@@ -83,7 +91,7 @@ window.SCHOLARS = [
           '<div class="pub-year">' + esc(x.year) + "</div>" +
           "<div>" +
             "<h4>" + esc(x.title) + "</h4>" +
-            '<p class="authors">' + esc(x.authors) + "</p>" +
+            '<p class="authors">' + boldAuthor(x.authors, p.authorName) + "</p>" +
             '<p class="venue">' + esc(x.venue) + "</p>" +
             (x.badge ? '<span class="badge">' + esc(x.badge) + "</span>" : "") +
           "</div></article>";
@@ -118,6 +126,6 @@ window.SCHOLARS = [
    ========================================================== */
 (function () {
   var st = document.createElement("style");
-  st.textContent = '.scholar-list{display:grid;gap:30px}\n.scholar{padding-bottom:26px;border-bottom:1px solid var(--line)}\n.scholar:last-child{border-bottom:0;padding-bottom:0}\n.scholar-head{display:flex;align-items:center;gap:22px;margin-bottom:18px}\n.scholar .p-avatar{flex:0 0 auto;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;width:130px;height:130px;margin:0;border-radius:50%;font-weight:800;font-size:1.9rem;color:var(--navy)}\n.scholar .p-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%}\n.scholar .p-avatar img[hidden]{display:none}\n.scholar .pinfo{text-align:left;margin:0}\n.scholar .pinfo strong{font-size:1.25rem;color:var(--navy)}\n.sch-pubs .sub{margin-top:0}\n@media(max-width:600px){.scholar-head{gap:14px}.scholar .p-avatar{width:90px;height:90px;font-size:1.4rem}}\n';
+  st.textContent = '.scholar-list{display:grid;gap:30px}\n.scholar{padding-bottom:26px;border-bottom:1px solid var(--line)}\n.scholar:last-child{border-bottom:0;padding-bottom:0}\n.scholar-head{display:flex;align-items:center;gap:22px;margin-bottom:18px}\n.scholar .p-avatar{flex:0 0 auto;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;width:130px;height:130px;margin:0;border-radius:50%;font-weight:800;font-size:1.9rem;color:var(--navy)}\n.scholar .p-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%}\n.scholar .p-avatar img[hidden]{display:none}\n.scholar .pinfo{text-align:left;margin:0}\n.scholar .pinfo strong{font-size:1.25rem;color:var(--navy)}\n.publication .authors strong{font-weight:800;color:var(--navy)}\n.sch-pubs .sub{margin-top:0}\n@media(max-width:600px){.scholar-head{gap:14px}.scholar .p-avatar{width:90px;height:90px;font-size:1.4rem}}\n';
   document.head.appendChild(st);
 })();
