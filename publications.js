@@ -237,7 +237,8 @@ const publications = {
       "year": "2026",
       "title": "Optimal control for complex-valued linear systems via self-stabilizing policy iteration with relaxed initial stability",
       "authors": "N. Manoj and M. Sathishkumar",
-      "venue": "15th Asian Control Conference (ASCC), Indonesia — accepted"
+      "venue": "15th Asian Control Conference (ASCC), pp. 31-36, 2026.",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11702203"
     },
     {
       "year": "2026",
