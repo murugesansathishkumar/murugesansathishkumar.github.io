@@ -231,7 +231,8 @@ const publications = {
       "year": "2026",
       "title": "Model-based homotopic policy iteration for optimal control of complex-valued linear systems",
       "authors": "N. Manoj, M. Sathishkumar, and Y.-C. Liu",
-      "venue": "ARIS 2026, International Conference on Advanced Robotics and Intelligent Systems, Tainan, Taiwan — accepted"
+      "venue": "2026 International Conference on Advanced Robotics and Intelligent Systems (ARIS 2026), pp. 1-6, 2026."
+       "link": "https://ieeexplore.ieee.org/document/11734434"
     },
     {
       "year": "2026",
